@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Perfil | Listado de animales</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<img src="imag/logo.png"/>
+		</header>
+
+		<div class="container-title">Animales</div>
+
+		<main>
+			<div class="container-img">
+				<img
+					src="imag/tigre.jpeg"
+					alt="imagen-producto"
+				/>
+			</div>
+			<div class="container-info-product">
+				<div class="container-animal">
+					<span>Tigres</span>
+					<i class="fa-solid fa-angle-right"></i>
+                    <button class="btn-add-to-info">
+						<i class="fa-solid fa-plus"></i>
+					</button>
+				</div>
+
+				<div class="container-details-product">
+					<div class="form-group">
+						<label for="info">Informe</label>
+						<select name="info" id="info">
+							<option disabled selected value="">
+								Buscar informe
+							</option>
+							<option value="Rx">Rx</option>
+							<option value="Estado de Salud">Estado de Salud</option>
+							<option value="Informe clinico">Informe clinico</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="name">Nombre</label>
+						<select name="size" id="size">
+							<option disabled selected value="">
+								Buscar
+							</option>
+							<option value="bigotes">bigotes</option>
+							<option value="manchas">manchas</option>
+							<option value="luna">luna</option>
+							<option value="nico">nico</option>
+						</select>
+					</div>
+					<button class="btn-clean">Limpiar</button>
+				</div>
+
+				<div class="container-add-info">
+					<div class="container-quantity">
+					</div>
+					<button class="btn-add-to-info">
+						<i class="fa-solid fa-plus"></i>
+						Añadir al información
+					</button>
+				</div>
+
+				<div class="container-description">
+					<div class="title-description">
+						<h4>Descripción del animal</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-description">
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing
+							elit. Laboriosam iure provident atque voluptatibus
+							reiciendis quae rerum, maxime placeat enim cupiditate
+							voluptatum, temporibus quis iusto. Enim eum qui delectus
+							deleniti similique? Lorem, ipsum dolor sit amet
+							consectetur adipisicing elit. Sint autem magni earum est
+							dolorem saepe perferendis repellat ipsam laudantium cum
+							assumenda quidem quam, vero similique? Iusto officiis
+							quod blanditiis iste?
+						</p>
+					</div>
+				</div>
+
+				<div class="container-additional-information">
+					<div class="title-additional-information">
+						<h4>Información adicional</h4>
+						<i class="fa-solid fa-chevron-down"></i>
+					</div>
+					<div class="text-additional-information hidden">
+						<p>-----------</p>
+					</div>
+				</div>
+
+			</div>
+		</main>
+
+		<section class="container-related-products">
+			<h2>Animales encargados</h2>
+			<div class="card-list-products">
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="imag/elefante.jpeg"
+							alt="producto-1"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Elefantes</h3>
+							<p class="category">selva tropical</p>
+						</div>
+						<div class="ejemplares">3 ejemplares</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="imag/jirafa.jpeg"
+							alt="producto-2"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Jirafas</h3>
+							<p class="category">sabana</p>
+						</div>
+						<div class="ejemplares">4 ejemplares</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="imag/nutria.jpg"
+							alt="producto-3"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Nutrias</h3>
+							<p class="category">ambientes acuáticos</p>
+						</div>
+						<div class="ejemplares">5 ejemplares</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-img">
+						<img
+							src="imag/hipo.jpeg"
+							alt="producto-4"
+						/>
+					</div>
+					<div class="info-card">
+						<div class="text-product">
+							<h3>Hipopotamos</h3>
+							<p class="category">sabana africana</p>
+						</div>
+						<div class="ejemplares">3 ejemplares</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="index.js"></script>
+	</body>
+</html>
